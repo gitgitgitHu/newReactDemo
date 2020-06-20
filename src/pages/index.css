@@ -1,0 +1,111 @@
+.box {
+    height: 100%;
+    background: #081b3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box {
+    width: 380px;
+    height: 400px;
+    background: transparent;
+}
+.login-header {
+    color: white;
+    width: 100%;
+    text-align: center;
+    line-height: 37px;
+}
+.login {
+    background: #2d5278;
+    position: relative;
+}
+.tab-header .ant-tabs-nav{
+    width: 330px;
+    height: 50px;
+    padding-left: 37px;
+    font-size: 26px;
+    background: #19386b;
+}
+.tab-content {
+    background: #2d5278;
+}
+.triangles {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid #19386b;
+    border-left: 25px solid #19386b;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    pointer-events: none;
+}
+.tab-header .ant-tabs-nav .ant-tabs-tab.ant-tabs-tab-active {
+    color: #ffffff;
+}.tab-header .ant-tabs-nav .ant-tabs-tab {
+    color: #8d9db6;
+}
+.tab-content{
+    padding: 0px 37px;
+}
+.inputList {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column;
+    margin-bottom: 30px;
+}
+.inputList .ant-input-affix-wrapper {
+ margin-top: 20px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+#switch {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 45px;
+    color:white;
+    z-index: 1;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+.sao {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.imgbox {
+    font-size: 100px;
+    border: 20px solid #3b6494;
+    width: 150px;
+    height: 150px;
+    line-height: 100px;
+}
+.saoFooter {
+    display: flex;
+    padding-top: 10px;
+}
+.saoimg {
+    width: 40px;
+    height: 40px;
+    color: #096dd9;
+    font-size: 40px;
+    line-height: 40px;
+}
+.info {
+    color: #7c93ab;
+    overflow-wrap: break-word;
+    width: 100px;
+}
